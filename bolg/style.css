@@ -1,0 +1,93 @@
+body {
+  background-color: #035992;
+  /* Azul */
+  color: #ffffff;
+  /* Texto blanco */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b5def9;
+  padding: 0.5px;
+  text-align: center;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e9f0f4;
+  padding: 1px;
+  position: center;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #7b7b7b;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #282828;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer {
+  background-color: #2980b9;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: #2980b9;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
